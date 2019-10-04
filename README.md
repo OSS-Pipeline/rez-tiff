@@ -1,3 +1,4 @@
-# rez-tiff
+rez-tiff
+===
 
 Rez build configuration for TIFF.
