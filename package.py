@@ -15,7 +15,7 @@ description = \
 requires = [
     "cmake-3+",
     "gcc-6+",
-    "jpeg-9+",
+    "jpeg_turbo-2+",
     "xz-5+",
     "zlib-1.2+"
 ]
