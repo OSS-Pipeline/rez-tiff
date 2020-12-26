@@ -55,10 +55,10 @@ uuid = "tiff-{version}".format(version=str(version))
 
 def commands():
     env.PATH.prepend("{root}/bin")
-    env.LD_LIBRARY_PATH.prepend("{root}/lib64")
-    env.PKG_CONFIG_PATH.prepend("{root}/lib64/pkgconfig")
+    env.LD_LIBRARY_PATH.prepend("{root}/lib")
+    env.PKG_CONFIG_PATH.prepend("{root}/lib/pkgconfig")
 
     # Helper environment variables.
     env.TIFF_BINARY_PATH.set("{root}/bin")
     env.TIFF_INCLUDE_PATH.set("{root}/include")
-    env.TIFF_LIBRARY_PATH.set("{root}/lib64")
+    env.TIFF_LIBRARY_PATH.set("{root}/lib")
